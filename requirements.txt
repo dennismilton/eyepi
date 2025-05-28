@@ -1,0 +1,17 @@
+# Face Recognition System Requirements
+
+# Core dependencies
+opencv-python>=4.8.0
+face-recognition>=1.3.0
+
+# Optional: MediaPipe for face detection (not available for Python 3.13+)
+# Uncomment if using Python 3.12 or earlier:
+# mediapipe>=0.10.0
+
+# Face recognition dependencies (usually installed with face-recognition)
+dlib>=19.24.0
+numpy>=1.24.0
+
+# Additional utilities
+Pillow>=10.0.0  # Image processing
+urllib3>=2.0.0  # For downloading DNN models

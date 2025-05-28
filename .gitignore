@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Face recognition data
+compute-node/face_encodings.pkl
+compute-node/known_faces/
+compute-node/models/*.caffemodel
+compute-node/models/*.weights
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Pi streaming
+stream.sdp
+*.h264
+*.mp4
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
